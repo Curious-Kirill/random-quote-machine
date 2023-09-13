@@ -21,7 +21,7 @@ function App() {
     author: "- Benjamin Franklin"}
   ] 
   
-  const [color, setColor]= useState('orange');
+ 
   let colors = ['green',"black","orange","yellow","red"]
   
  
@@ -38,10 +38,7 @@ function App() {
   
   let currentQuote = qoutes[index]
   
-  useEffect(()=>{
-
-  },[color])
-  
+ 
   
   return (
     <div id="quote-box">
